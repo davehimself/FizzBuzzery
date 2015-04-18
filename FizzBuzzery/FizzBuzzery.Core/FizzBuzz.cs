@@ -15,9 +15,9 @@ namespace FizzBuzzery.Core
             _strategy = strategy;
         }
 
-        public string CalculateFizzBuzz(int someInt)
+        public string CalculateFizzBuzz(long numberToCalculate)
         {
-            return _strategy.Execute(someInt);
+            return _strategy.Execute(numberToCalculate);
         }
     }
 }
